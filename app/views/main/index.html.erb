@@ -1,0 +1,19 @@
+<h1>Task Manager</h1>
+
+<h3>This is an an Application to manage your tasks</h3>
+<p>Find me in app/views/main/index.html.erb</p>
+
+<% x = 1 + 1 %>
+<%= x %>
+
+<br><br>
+<a href="/tasks/index">Tasks 1</a>
+<br><br>
+
+<%# link_to('Task2', '/tasks/index') %>#
+<%= link_to('Task2', {controller: 'tasks', action: 'index', page: 1}) %>
+
+<%= link_to('About', {action: 'about', id: 5, page: 20}) %>
+
+
+
